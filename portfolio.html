@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/boostrap-theme.min.css" />
+		<!-- important to do CSS style sheet last so you can override bootstrap styles -->
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<!--navbar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" 
+					data-toggle="collapse" data-target="#myNav" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger" style="color:gray"></span>
+                        <span class="menu" style="color:gray">Menu</span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">メンデズアンドレス</a>
+                </div> 
+				<div id="myNav" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="resume.html">Resume</a></li>
+					</ul>
+				</div>
+            </div>	
+        </nav> </nav>
+		<!-- jumbotron starts here-->
+		<div class="jumbotron">
+			<div class="container text-center">
+				<h2 style="font-family:Monospace;">Portfolio</h2>				
+				<p style="font-family:MS PGothic;">This is a collection of work produced from my undergraduate career in Cartography</p>
+			</div>
+		</div>
+		<!-- thumbnails start here I guess -->
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-4 col-sm-6 col-xs-10 portfolio-thumb">
+					<a href="images/bike_trail_large.png">
+					<!--<a href="images/bike_trail_large.png"></a>-->
+						<img src="images/biketrail.png" alt="Bike Trail Relief Map Around Japan" class="img-responsive" />
+					</a>
+					<p><b><center>Japanese Bike Trail Map</center></b></p>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-10 portfolio-thumb">
+					<a href="https://api.mapbox.com/v4/aamendez2.bf4b578f/page.html?access_token=pk.eyJ1IjoiYWFtZW5kZXoyIiwiYSI6ImNpZ2I5NjVzaDBlaW93ZG03cWt0OW5sMzgifQ.th4dPR3RKIF9DZYCHu-qxA#6/42.135/-89.187">
+						<img src="images/mapbox.png"  alt="Custom Slippy Map Made in Map Box Based on Darker Works by Takashi Murakami" class="img-responsive" />
+					</a>
+					<p><b><center>Map Box Slippy Map<b></center></p>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-10 portfolio-thumb">
+					<a href="images/africamap_large.png">
+						<img src="images/africamap.png"  alt="Labeled Political Map of Afriac" class="img-responsive" />
+					</a>
+					<p><b><center>Africa Political Map</b></center></p>
+				</div>
+				<!--<div class="col-md-4 col-sm-6 col-xs-12 portfolio-thumb">
+					<img src="images/gradient.png" alt="name of image" class="img-responsive" />
+					<p> project 4</p>
+				</div>-->
+			</div>
+		</div>
+	</</body>
+</html>

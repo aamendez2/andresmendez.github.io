@@ -1,0 +1,30 @@
+.portfolio-thumb{
+	border:0px dashed gray;
+}
+
+.jumbotron{
+	background-color: rgba(0,0,0,.4);
+	color: #ffffff;
+}
+
+body{
+	background-image: url("../images/stardust.png");
+	background-color: #000000;
+}
+
+.abtme{
+	color: #ffffff;
+	text-align: center;
+	padding: 60px;
+	margin: 20px;
+}
+.container{
+	font-family: "Arial";
+	color: #ffffff;	
+}
+.japanese{
+	text-align: center;
+}
+img{
+	border:5px solid #d6d6d6;
+}

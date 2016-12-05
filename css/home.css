@@ -1,0 +1,33 @@
+
+
+
+body{
+	background-image: url("../images/homebg.jpg");
+	background-color: #000000;
+}
+
+
+.portfolio-thumb{
+	border:0px dashed gray;
+}
+
+.jumbotron{
+	background-color: rgba(0,0,0,.7);
+	color: #ffffff;
+}
+
+
+.abtme{
+	color: #ffffff;
+	text-align: center;
+}
+.container{
+	font-family: "Arial";
+	color: #ffffff;
+}
+.japanese{
+	text-align: center;
+}
+.navbar-brand{
+	font-family: "MS PGothic"
+}
